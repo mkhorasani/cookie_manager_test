@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit_authenticator as stauth
+#import streamlit_authenticator as stauth
 
 names = ['John','Rebecca']
 usernames = ['js','rb']
