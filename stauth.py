@@ -9,7 +9,7 @@ st.title('Test')
 
 hashed_passwords = stauth.hasher(passwords).generate()
 
-authenticator = stauth.authenticate(names,usernames,hashed_passwords,'stauths','12d3',cookie_expiry_days=0)
+authenticator = stauth.authenticate(names,usernames,hashed_passwords,'stauths','12d3',cookie_expiry_days=30)
 name, authentication_status = authenticator.login('Logins','sidebar')
 
 if authentication_status:
